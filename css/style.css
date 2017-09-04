@@ -15,13 +15,15 @@ a {
 }
 .page {
 	height: 100vh;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 .content-container {
 	margin: 0 auto;
 	padding: 30px;
 	position: relative;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	height: 100%;
 }
 .preview {
@@ -41,7 +43,9 @@ a {
 	margin: 0 auto;
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 }
 .preview__scroll {
 	display: block;
@@ -63,13 +67,17 @@ a {
 	content: "\5c";
 	top: 0;
 	left: 0;
-	transform: skewX(25deg);
+	-webkit-transform: skewX(25deg);
+	    -ms-transform: skewX(25deg);
+	        transform: skewX(25deg);
 }
 .preview__scroll::after {
 	content: "\2f";
 	top: 0;
 	left: 17px;
-	transform: skewX(-25deg);
+	-webkit-transform: skewX(-25deg);
+	    -ms-transform: skewX(-25deg);
+	        transform: skewX(-25deg);
 }
 .page-counter {
 	position: absolute;
@@ -80,7 +88,8 @@ a {
 	font-size: 0;
 	margin-right: -5px;
 	vertical-align: top;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	height: 100%;
 	overflow: hidden;
 	position: relative;
@@ -140,7 +149,9 @@ a {
 	font-size: 45px;
 	font-weight: 500;
 	top: 50%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	margin: 0;
 }
 .project::after {
@@ -161,7 +172,9 @@ a {
 	border-radius: 50%;
 	font-size: 30px;
 	top: 50%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	left: 30px;
 }
 .project__details::before,
@@ -174,12 +187,16 @@ a {
 .project__details::before {
 	content: "\5c";
 	top: 11px;
-	transform: skewX(20deg);
+	-webkit-transform: skewX(20deg);
+	    -ms-transform: skewX(20deg);
+	        transform: skewX(20deg);
 }
 .project__details::after {
 	content: "\2f";
 	top: 34px;
-	transform: skewX(-20deg);
+	-webkit-transform: skewX(-20deg);
+	    -ms-transform: skewX(-20deg);
+	        transform: skewX(-20deg);
 }
 .project__details:hover {
 	background-color: rgba(25, 25, 25, 1);
@@ -202,7 +219,8 @@ a {
 .bar li {
 	height: 25%;
 	padding-bottom: 5px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 .bar li:last-child {
 	padding-bottom: 0;
@@ -216,7 +234,9 @@ a {
 .bar__counter {
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	left: 0;
 	font-size: 15px;
 	display: none;
